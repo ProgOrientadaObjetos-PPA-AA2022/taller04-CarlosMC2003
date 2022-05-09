@@ -58,13 +58,13 @@ public class InstiDoc {
         return sueldoTo;
     }
     
-    public String cedula() {
+    public String obtenerCedula() {
         return cedula;
     }
     
+    @Override
     public String toString() {
-        String cadena = String.format("Listado De Docentes\n"
-                + "Nombre y Apellido Del Docente: %s %s\n" 
+        String cadena = String.format("Nombre y Apellido Del Docente: %s %s\n" 
                 + "Cedula Del Docente: %s\n"
                 + "Sueldo Basico : %.2f\n" 
                 + "Sueldo Total: %.2f\n"
